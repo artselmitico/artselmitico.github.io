@@ -1,0 +1,106 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.web{
+  display: grid;
+  padding-top: 10px;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(8, auto);
+}
+
+.menu{
+  background-color: aqua;
+  grid-column: 2/10;
+  grid-row:1/2 ;
+  width: auto;
+  height: 100px;
+  border-radius: 25px;
+  margin: 5px; 
+}
+
+
+
+
+.contex{
+  grid-column: 2/10;
+  grid-row:2/3 ;
+  padding: 15px;
+}
+
+.contex p{
+  font-size: 14px;
+  text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+.congaleria{
+  width: 100%;
+  grid-column: 2/10;
+  grid-row: 3/4;
+}
+
+.congaleria h1{
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.conlis{
+  /* display: flex;
+  flex-wrap: wrap;
+  padding: 10px;  */
+  justify-content: space-evenly;
+  justify-items: center;  
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 5px;
+ 
+}
+
+.lis{
+  
+  width: auto;
+  height: auto;
+  margin: 2px;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(206, 123, 0);
+  border-radius: 15px;
+}
+
+.lis h1{
+  text-align: center;
+  padding: 6px;
+  font-size: 25px;
+  color: white;
+}
+
+.lis p{
+  text-align:left;
+  background-color: rgb(255, 255, 255);
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 14px;
+  
+
+}
+
+.lis img{
+  overflow: hidden;
+  margin: 10px;
+  width: 220px;
+  height: 285px;
+  border-radius: 10px;
+}
