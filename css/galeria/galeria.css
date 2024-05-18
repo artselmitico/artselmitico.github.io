@@ -30,7 +30,7 @@
   padding: 15px;
 }
 
-.contex p{
+.contex h3{
   font-size: 14px;
   text-align: justify;
 }
@@ -50,7 +50,7 @@
   grid-row: 3/4;
 }
 
-.congaleria h1{
+.congaleria h2{
   text-align: center;
   padding: 10px;
   font-size: 30px;
@@ -80,14 +80,14 @@
   border-radius: 15px;
 }
 
-.lis h1{
+.lis h2{
   text-align: center;
   padding: 6px;
   font-size: 25px;
   color: white;
 }
 
-.lis p{
+.lis h3{
   text-align:left;
   background-color: rgb(255, 255, 255);
   padding: 8px;
