@@ -97,10 +97,19 @@
 
 }
 
-.lis img{
-  overflow: hidden;
-  margin: 10px;
+/* .conimg{
+  
   width: 220px;
-  height: 285px;
-  border-radius: 10px;
+  height: 350px;
+  padding: 2px;
+  margin: 15px;
+} */
+
+.lis img{
+  
+  overflow: hidden;
+  width: 240px;
+  height: 350px;
+  border-radius: 15px;
+    
 }
