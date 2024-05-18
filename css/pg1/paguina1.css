@@ -11,6 +11,8 @@
   grid-template-rows: repeat(8, auto);
 }
 
+/*menu*/
+
 .menu{
   background-color: rgb(0, 89, 255);
   grid-column: 2/10;
@@ -37,6 +39,7 @@
   font-family:'Times New Roman', Times, serif;
 }
 
+/*banner*/
 
 .baner{
   grid-row: 2/3;
