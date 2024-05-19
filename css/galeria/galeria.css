@@ -123,6 +123,7 @@ text-align: center;
   object-fit: cover;
   margin-bottom: 10px;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 .lis h2{
