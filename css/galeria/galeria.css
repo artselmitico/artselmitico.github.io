@@ -9,6 +9,7 @@
   padding-top: 10px;
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(8, auto);
+  position: relative;
 }
 
 /*menu*/
@@ -52,12 +53,45 @@
   font-size: 18px;
 }
 
+
+/*img grande*/
+
+
+.imgg{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.801);
+  z-index: 99;
+
+}
+
+.imgg span{
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  font-size: 30px;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.imgg img{
+  width: auto;
+  height: 700px;
+  border-radius: 20px;
+}
+
+
 /*galeria*/
 
 .congaleria{
   
   grid-column: 2/10;
   grid-row: 3/4;
+  
 }
 
 .congaleria h2{

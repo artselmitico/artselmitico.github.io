@@ -8,7 +8,7 @@
 </head>
 <body>
    
-  <h2 class="web">
+  <section class="web">
 
     <header class="menu">
       <ul class="conmlis">
@@ -36,13 +36,25 @@
 
 
 
+  <div class="imgg" id="fullbox">
+    <img src="/img/cuadro.png" id="fullimg" alt="">
+    <span onclick="closeImg()">X</span>
+  </div>
+
+
+
   <section class="congaleria">
       <h2> Obras, Pinturas y Esculturas</h2>
+
+     
+      
+
+
       <div class="conlis">
         <div class="lis"  >
           <h2>Mascara Funeraria</h2>
           <div class="conimg">
-          <img src="./img/cuadro.png" >
+          <img src="./img/cuadro.png" onclick="opnefulimg(this.src)" >
           </div>
           <p><strong>Obra:</strong> Mascara Funeraria. <br>
             <strong>Estilo:</strong> Oleo Sobre lienzo <br>
@@ -53,7 +65,7 @@
           <div class="lis"  >
             <h2>Mascara Funeraria</h2>
             <div class="conimg">
-            <img src="./img/cuadro1.jpeg" >
+            <img src="./img/cuadro1.jpeg" onclick="opnefulimg(this.src)">
             </div>
             <p><strong>Obra:</strong> Mascara Funeraria. <br>
               <strong>Estilo:</strong> Oleo Sobre lienzo <br>
@@ -64,30 +76,32 @@
         <div class="lis">
           <h2>sdfds</h2>
           <div class="conimg">
-          <img src="./img/cuadro2.jpeg" >
+          <img src="./img/cuadro2.jpeg" onclick="opnefulimg(this.src)">
           </div>
           <p>sfdsf</p>
         </div>
         <div class="lis">
           <p>sdfds</p>
           <div class="conimg">
-          <img src="./img/cuadro3.jpeg" >
+          <img src="./img/cuadro3.jpeg" onclick="opnefulimg(this.src)">
           </div>
           <h3>sfdsf</h3>
         </div>
         <div class="lis">
           <h2>sdfds</h2>
           <div class="conimg">
-          <img src="./img/cuadro4.jpeg" alt="350px">
+          <img src="./img/cuadro4.jpeg" onclick="opnefulimg(this.src)">
           </div>
           <h3>sfdsf</h3>
         </div>
       
   </section>
 
+<script src="./java/scrips.js">
+  
+</script>
 
-
-  </h2>
+  </section>
 
 </body>
 </html>
