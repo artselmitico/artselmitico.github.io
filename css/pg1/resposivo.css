@@ -40,8 +40,8 @@
 @media screen and (max-width: 770px){
     .baner{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, auto);
     }
     
     .confoto{
@@ -49,9 +49,16 @@
         grid-column: 1/2; 
     } 
 
+    .confoto img{
+        width: 3500px;
+        height: 440px;
+        border-radius: 20px;
+      } 
+
     .tag{
-        grid-row: 1/2;
-        grid-column: 2/3;    
+        grid-row: 2/3;
+        grid-column: 1/2;    
+        
     }
 
     .cuadro1{
@@ -64,7 +71,8 @@
     .baner{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+        padding: 10px;
     }
 
     .confoto{
@@ -74,8 +82,8 @@
     }
     .confoto img{
         
-        width: 220px;
-        height: 340px;
+        width: 180px;
+        height: 260px;
     }
 
     .tag{

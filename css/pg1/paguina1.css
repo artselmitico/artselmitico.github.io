@@ -8,7 +8,7 @@
   display: grid;
   padding-top: 10px;
   grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: repeat(10, auto);
+  grid-template-rows: repeat(10, auto)
 }
 
 /*menu*/
@@ -45,15 +45,15 @@
 .baner{
   grid-row: 2/3;
   grid-column: 2/10 ;
-  background-color: rgb(206, 123, 0);
-  height: 550px;
-  border-radius: 20px;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(6, 1fr);
-  margin: 5px; 
-   
+  margin: 10px; 
+  padding: 10px;
+  background-color: rgb(206, 123, 0);
+  border-radius: 25px;
 }
+
 
 .confoto{
  
@@ -63,7 +63,7 @@
   justify-content: center;
   margin: 2px;
   align-items: center;
-  
+   
 }
 
 .confoto img{
@@ -73,7 +73,7 @@
 } 
 
 .tag{
-  grid-column: 3/5;
+  grid-column: 3/4;
   grid-row: 3/6;
   display: flex;
   justify-content: space-evenly;
@@ -88,19 +88,6 @@
   font-size: 30px;
   text-align: center;
   color: white;
-}
-
-.conlis{
-  display: flex;
-  background-color: rgb(255, 255, 255);
-  border-radius: 10px;
-  padding: 10px;
-  margin: 10px;
-}
-
-.lis{
-  
-  margin: 15px;
 }
 
 .cuadro{
@@ -119,19 +106,49 @@
   border-radius: 20px;
  }
  
+ .red{
+  grid-row: 3/5;
+  grid-column: 4/8 ;
+ }
+
+
+
+/*redes*/
+
+.conlis{
+  grid-row: 3/4;
+  grid-column: 3/9 ;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 10px;
+  height: 150px;
+  width: 100%;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  
+}
+
+.lis{
+  width: 120px;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 /* perfil*/
 
  .perfil{
-  grid-row: 3/4;
+  grid-row: 4/5;
   grid-column: 2/10 ;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   justify-content: center;
-  height: 600px;
-
- }
+  height: auto;
+}
 
  .textperf{
   width: 576px;
@@ -161,7 +178,6 @@
   cursor: pointer;
  }
 
-
  .imgg{
   position: fixed;
   width: 100%;
@@ -190,12 +206,23 @@
 }
 
 
+/* Exposicion */
+
+.expo{
+  grid-row: 5/6;
+  grid-column: 2/10 ;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 
 
  /* trabajos*/
 
  .trabajos{
-  grid-row: 4/5;
+  grid-row: 6/7;
   grid-column: 2/10 ;
   display: flex;
   flex-wrap: wrap;

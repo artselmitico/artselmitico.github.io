@@ -11,10 +11,15 @@
   
 <section class="web">
 
+<!-- menu -->
+
 <header class="menu">
 <ul class="conmlis">
   <li class="lism">
-    <a href="#perf">perfil</a>
+    <a href="#conlis">Redes Sociales</a>
+  </li>
+  <li class="lism">
+    <a href="#perf">Perfil</a>
   </li>
   <li class="lism">
     <a href="#galeri">Galeria</a>
@@ -22,23 +27,20 @@
 </ul>
 </header>
 
+<!-- baner -->
+
 <section class="baner">
+
+
   <picture class="confoto">
     <img src="./img/foto.png" alt="" >
   </picture>
 
   <article class="tag">
     <h6>William Prada A.</h6>
-    <ul class="conlis">
-      <li class="lis">
-        <a href="http://"><img src="" id="redes"> dfdfs</a>
-      </li>
-      <li class="lis">
-        <a href="http://"><img src="" id="redes" > </a>
-      </li>
-    </ul>
+    
   </article>
-
+ 
 
   <div class="cuadro">
     <picture class="cuadro1">
@@ -48,9 +50,24 @@
       <img src="./img/cuadro.png" alt="">
     </picture >
   </div>
+ 
 </section>
 
+<!-- redes sociales -->
 
+<ul class="conlis" id="conlis">
+  <li class="lis">
+
+    <a href="http://"><img src="" id="redes"> </a>
+    <p>wasap</p>
+  </li>
+  <li class="lis">
+    <a href="http://"><img src="" id="redes" > </a>
+    <p> facebook</p>
+  </li>
+</ul>
+
+<!-- perfil -->
 
 <section class="perfil" id="perf">
 
@@ -65,13 +82,23 @@
 </section>
 
 
+<!-- exposicion -->
 
-<div class="imgg" id="fullbox">
-  <img src="/img/cuadro.png" id="fullimg" alt="">
-  <span onclick="closeImg()">X</span>
-</div>
+<section class="expo" id="expo">
+
+  <picture class="cuadroper">
+    <img src="./img/cuadro1.jpeg" id="cudp" onclick="opnefulimg(this.src)" >
+  </picture>
+  <article class="textperf">
+      <h2>Exposicones</h2><br>
+      <p>El artista y docente, graduado de la Universidad Distrital Francisco José de Caldas, mi area son las artes plásticas con el tema del Precolombino y la naturaleza. <br> <br> Mi trabajo abarca la escultura, pintura, dibujo y talla, utilizando técnicas experimentales para explorar sus inquietudes técnicas y teóricas. <br> <br>  Comenzó su carrera como dibujante y docente, y luego se adentró en las artes plásticas para crear obras que fomentan el debate sobre la falta de identidad en la sociedad colombiana antigua y modernas conectando con la naturaleza. <br> <br> Para fortalecer my formación, he participado en espacios de formación teórica y he expuesto mis trabajo en varios lugares, incluyendo el Senado de la República ,el Consejo de Bogotá y tambien en el exterior.</p>
+  </article>
 
 
+</section>
+
+
+<!-- galeria -->
 
 <section class="trabajos" id="galeri">
   <ul class="conlisc">
@@ -102,6 +129,8 @@
     </li>
   </ul>
 </section>
+
+<!-- video -->
 
 <section class="videos">
   <video class="conlisv">
@@ -135,6 +164,11 @@
 
 
 
+
+<div class="imgg" id="fullbox">
+  <img src="/img/cuadro.png" id="fullimg" alt="">
+  <span onclick="closeImg()">X</span>
+</div>
 
 <script src="./java/scrips.js"></script>
 
