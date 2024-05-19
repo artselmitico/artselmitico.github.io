@@ -24,7 +24,17 @@
         display: none;
     }
 
-   
+    .textperf{
+        width: 100%;
+    }
+    .cuadroper{
+        width: 100%;
+    }
+    #cudp{
+        width: 100%;
+    }
+
+
 }
 
 @media screen and (max-width: 770px){
@@ -71,6 +81,18 @@
     .tag{
         grid-row: 2/3;
         grid-column: 1/2;    
+    }
+
+    .cuadroper{
+        width: 100%;
+    }
+
+    #cudp{
+        width: 100%;
+    }
+
+    .lisc{
+        width: 100%;
     }
 
 }
